@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+h1 {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #8080a8;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.meme img {
+    margin-top: 5rem;
+    width: 30rem;
+    height: 30rem;
+}
